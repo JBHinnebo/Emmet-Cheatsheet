@@ -1,0 +1,259 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row disposition">
+      <div class="large-12 columns ">
+        <h1>Emmet</h1>
+        <h3>Cheat Sheet</h3>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <h3 class=titre_de_la_page>Syntax</h3>
+        <!-- Grid Example -->
+
+        <div class="row">
+          <div class="large-4 columns">
+            <div class="primary">
+              <h3 class=titre_cellules>Child:></h3>
+              <p><strong>nav&gtul&gtli</strong></p>
+              <p>&ltnav&gt</p>
+              <p>&ltli&gt&lt/li&gt</p>
+              <p>&lt/ul&gt</p>
+              <p>&lt/nav&gt</p>
+            </div>
+          </div>
+
+
+
+          <div class="large-4 columns">
+            <div class="primary">
+              <h3 class=titre_cellules>Sibling: +</h3>
+              <p><strong>div+p+bq</strong></p>
+              <p>&ltdiv&gt&lt/div&gt</p>
+              <p>&ltp&gt&lt/p&gt</p>
+              <p>&ltblockquotel&gt&lt/blockquotel&gt</p>
+            </div>
+          </div>
+
+
+
+
+          <div class="large-4 columns">
+            <div class="primary ">
+              <h3 class=titre_cellules> Climb-up: ^ </h3>
+              <p><strong> div+div>p>span+em^bq </strong></p>
+              <p> &ltdiv&gt&lt/div&gt </p>
+              <p> &ltdiv&gt</p>
+              <p> &ltp&gt &ltspan&gt &/span&gt &ltem&gt &lt/em&gt &lt/p&gt </p>
+              <p> &ltblockquotel&gt&lt/blockquotel&gt</p>
+              <p> &ltdiv&gt</p>
+              <p> - </p>
+              <p><strong> div+div>p>span+em^^bq </strong></p>
+              <p> &ltdiv&gt&lt/div&gt </p>
+              <p> &ltdiv&gt</p>
+              <p> &ltp&gt &ltspan&gt &/span&gt &ltem&gt &lt/em&gt &lt/p&gt </p>
+              <p> &ltdiv&gt</p>
+              <p> &ltblockquotel&gt&lt/blockquotel&gt</p>
+            </div>
+          </div>
+
+
+
+          <div class="large-4 columns">
+            <div class="primary">
+              <h3 class=titre_cellules> Grouping: () </h3>
+              <p><strong> div>(header>ul>li*2>a)+footer>p </strong></p>
+              <p> &ltdiv&gt </p>
+              <p> &ltheader&gt</p>
+              <p> &ltpul&gt </p>
+              <p> &ltli&gt&lta href=""&gt&lt/a&gt&lt/li&lt</p>
+              <p> &ltli&gt&lta href=""&gt&lt/a&gt&lt/li&lt</p>
+              <p> &lt/pul&gt </p>
+              <p> &lt/header&gt</p>
+              <p> &ltfooter&gt</p>
+              <p> &ltp&gt</p>
+              <p> &lt/footer&gt</p>
+              <p> &lt/div&gt </p>
+              <p> - </p>
+              <p><strong> (div>dl>(dt+dd)*3)+footer>p </strong></p>
+              <p> &ltdiv&gt </p>
+              <p> &ltdl&gt</p>
+              <p> &ltdt&gt&lt/dt&gt </p>
+              <p> &ltdd&gt&lt/dd&gt </p>
+              <p> &ltdt&gt&lt/dt&gt </p>
+              <p> &ltdd&gt&lt/dd&gt </p>
+              <p> &ltdt&gt&lt/dt&gt </p>
+              <p> &ltdd&gt&lt/dd&gt </p>
+              <p> &lt/dl&gt</p>
+              <p> &lt/div&gt </p>
+              <p> &ltfooter&gt</p>
+              <p> &ltp&gt&lt/p&gt</p>
+              <p> &lt/footer&gt</p>
+
+            </div>
+          </div>
+
+
+
+          <div class="large-4 columns">
+            <div class="primary ">
+              <h3 class=titre_cellules>Multiplication: *</h3>
+              <p><strong>ul>li*5</strong></p>
+              <p>&ltul&gt</p>
+              <p>&ltli&gt&lt/li&gt</p>
+              <p>&ltli&gt&lt/li&gt</p>
+              <p>&ltli&gt&lt/li&gt</p>
+              <p>&ltli&gt&lt/li&gt</p>
+              <p>&ltli&gt&lt/li&gt</p>
+              <p>&lt/ul&gt</p>
+            </div>
+          </div>
+
+
+
+          <div class="large-4 columns">
+            <div class="primary">
+              <h3 class=titre_cellules>Item numbering: $</h3>
+              <p><strong>ul>li.item$*5</strong></p>
+              <p>&ltul&gt</p>
+              <p>&ltli class="item1"&gt&lt/li&gt</p>
+              <p>&ltli class="item2"&gt&lt/li&gt</p>
+              <p>&ltli class="item3"&gt&lt/li&gt</p>
+              <p>&ltli class="item4"&gt&lt/li&gt</p>
+              <p>&ltli class="item5"&gt&lt/li&gt</p>
+              <p>&lt/ul&gt</p>
+              <p><srtong>h$[title=item$]{Header $}*3</srtong></p>
+              <p>&ltli class="item001"&gt&lt/li&gt</p>
+              <p>&ltli class="item002"&gt&lt/li&gt</p>
+              <p>&ltli class="item003"&gt&lt/li&gt</p>
+              <p><strong>ul>li.item$*5</strong></p>
+              <p>&ltul&gt</p>
+              <p>&ltli class="item001"&gt&lt/li&gt</p>
+              <p>&ltli class="item002"&gt&lt/li&gt</p>
+              <p>&ltli class="item003"&gt&lt/li&gt</p>
+              <p>&ltli class="item004"&gt&lt/li&gt</p>
+              <p>&ltli class="item005"&gt&lt/li&gt</p>
+              <p>&lt/ul&gt</p>
+              <p><strong>ul>li.item$@-*5</strong></p>
+              <p>&ltul&gt</p>
+              <p>&ltli class="item5"&gt&lt/li&gt</p>
+              <p>&ltli class="item4"&gt&lt/li&gt</p>
+              <p>&ltli class="item3"&gt&lt/li&gt</p>
+              <p>&ltli class="ite12"&gt&lt/li&gt</p>
+              <p>&ltli class="item5"&gt&lt/li&gt</p>
+              <p>&lt/ul&gt</p>
+              <p><strong>ul>li.item$@3*5</strong></p>
+              <p>&ltul&gt</p>
+              <p>&ltli class="item3"&gt&lt/li&gt</p>
+              <p>&ltli class="item4"&gt&lt/li&gt</p>
+              <p>&ltli class="item5"&gt&lt/li&gt</p>
+              <p>&ltli class="ite16"&gt&lt/li&gt</p>
+              <p>&ltli class="item7"&gt&lt/li&gt</p>
+              <p>&lt/ul&gt</p>
+            </div>
+          </div>
+
+            <div class="large-4 columns">
+              <div class="primary ">
+                <h3 class=titre_cellules>ID and CLASS attributes</h3>
+                <p><strong>#header</strong></p>
+                <p>&ltdiv id="header"&gt&lt/div&gt</p>
+                <p><strong>.title</strong></p>
+                <p>&ltdiv class="title"&gt&lt/div&gt</p>
+                <p><strong>form#search.wide</strong></p>
+                <p>&ltform id="search" class="wide"&gt&lt/form&gt</p>
+                <p><strong>p.class1.class2.class3</strong></p>
+                <p>&ltp class="class1 class2 class3"&gt&lt/p&gt</p>
+              </div>
+            </div>
+
+          <div class="large-4 columns">
+              <div class="primary ">
+                <h3 class=titre_cellules>Custom attributes</h3>
+                <p><strong>p[title="Hello world"]</strong></p>
+                <p>&ltp title="Hello world"&gt&lt/p&gt</p>
+                <p><strong>td[rowspan=2 colspan=3 title]</strong></p>
+                <p>&lttd rowspan="2" colspan="3" title=""&gt&lt/td&gt</p>
+                <p><strong>[a='value1' b="value2"]</strong></p>
+                <p>&ltdiv a="value1" b="value2"&gt&lt/div&gt</p>
+              </div>
+            </div>
+
+          <div class="large-4 columns">
+              <div class="primary ">
+                <h3 class=titre_cellules>Text: {}</h3>
+                <p><strong>a{Click me}</strong></p>
+                <p>&lta href="">Click me&gt&lt/a&gt</p>
+                <p><strong>p>{Click }+a{here}+{ to continue}</strong></p>
+                <p>&ltp>Click <a href="">here</a> to continue</p&gt</p>
+                <p><strong>[a='value1' b="value2"]</strong></p>
+                <p>&ltdiv a="value1" b="value2"&gt&lt/div&gt</p>
+              </div>
+            </div>
+
+        <div class="large-4 columns">
+              <div class="primary ">
+                <h3 class=titre_cellules>Implicit tag names</h3>
+                <p><strong>.class</strong></p>
+                <p>&ltdiv class="class"></div&gt</p>
+                <p><strong>em>.class</strong></p>
+                <p>&ltpem><span class="class"></span></em&gt</p>
+                <p><strong>ul>.class</strong></p>
+                <p>&ltul&gt</p>
+                <p>&ltli class="class"></li&gt</p>
+                <p>&lt/ul&gt</p>
+                <p><strong>table>.row>.col</strong></p>
+                <p>&lttable&gt</p>
+                <p>&lttr class="row"&gt</p>
+                <p>&lttd class="col"></td&gt</p>
+                <p>&lt/tr&gt</p>
+                <p>&lt/table&gt</p>
+              </div>
+            </div>
+
+        </div>
+
+
+       <div class="row">
+      <div class="large-12 medium-12 columns">
+
+         <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+        <li class="pagination-previous disabled">Previous</li>
+        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+        <li><a href="HTML.html" aria-label="Page 2">2</a></li>
+        <li><a href="CSS.html" aria-label="Page 3">3</a></li>
+        <li><a href="#" aria-label="Page 4">4</a></li>
+        <li class="pagination-next"><a href="#" aria-label="Next page">Next</a></li>
+      </ul>
+        </div>
+        </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+
+    <footer>
+
+
+
+      <a href="https://www.twitter.com/juanbaptista.hennibo"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social icon"></a>
+       <a href="https://www.facebook.com/juanbaptista.hennibo"><img src="img/facebook-wrap.png" alt="Twitter Logo" class="social icon"></a>
+      <p>&copy; 2016 Jean-Baptiste HINNEBO</p>
+    </footer>
+
+  </body>
+</html>
