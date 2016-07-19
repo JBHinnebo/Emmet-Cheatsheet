@@ -1,0 +1,44 @@
+/*****************HEADER*********************/
+
+
+
+
+.disposition{
+  font-weight:bold;
+    background-color:#aaa;
+  text-align:center;
+  margin:20px auto 30px;
+  width:100%
+
+}
+
+.titre_de_la_page{
+
+  font-size:45px;
+  margin-bottom:40;
+
+}
+
+
+footer {
+
+  background-color: #eee;
+  font-size: 0.50em;
+  padding-top: 25px;
+  text-align: center;
+  clear:both;
+}
+
+.titre_cellules{
+
+  background-color: #eee;
+
+}
+
+.primary {
+
+  border-left: 1.5px solid #aaa;
+
+ padding:5px 15px;
+
+}
